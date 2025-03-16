@@ -4,8 +4,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: none;
+  background-color: rgba(224, 21, 21, 0.5);
+  display: grid;
 }
 
 .tutorial-steps {
@@ -41,18 +41,18 @@
 
 .next-step {
   background-color: #4CAF50;
-  color: #fff;
+  color: #060606;
   padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  border: dashed red;
+  border-radius: 25px;
+  cursor: crosshair;
 }
 
 .close-tutorial {
   background-color: #f44336;
-  color: #fff;
+  color: #080808;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  cursor: pointer;
+  cursor: crosshair;
 }
